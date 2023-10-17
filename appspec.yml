@@ -1,8 +1,5 @@
 version: 0.0
 os: linux
-files:
-  - source: /
-    destination: /web/
 hooks:
   AfterInstall:
     - location: scripts/mkdir.sh
