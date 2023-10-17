@@ -5,7 +5,7 @@ files:
     destination: /web/
 hooks:
   BeforeInstall:
-    - location: Scripts/dependencies.sh
+    - location: scripts/dependencies.sh
       timeout: 300
       runas: root
   AfterInstall:
